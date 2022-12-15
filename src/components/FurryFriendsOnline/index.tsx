@@ -1,0 +1,133 @@
+import { Text, Image, Flex, Stack, Button, Box } from "@chakra-ui/react";
+
+
+const FuryFriendsOnline: React.FC = () => {
+  return (
+    <Flex
+      w="100%"
+      h="590px"
+      bg="#FFFFFF"
+      padding="96px 0px"
+      gap="64px"
+      alignItems="center"
+      flex-direction="column"
+    >
+      <Flex
+        alignItems="center"
+        padding="0px 32px"
+        height="94px"
+        flex="1"
+        justifyContent="center"
+        flexDirection="column"
+      >
+        <Text
+          fontWeight="600"
+          fontSize="36px"
+          lineHeight="44px"
+          color="#101828"
+          textAlign="center"
+        >
+          Manage all you furty friends online right here in your own kennel.
+        </Text>
+        <Text
+          fontWeight="400"
+          fontSize="20px"
+          lineHeight="30px"
+          color="#667085"
+          textAlign="center"
+        >
+          Quick and easy even your Ouma can do it.
+        </Text>
+        <Flex
+          alignItems="center"
+          padding="64px"
+          height="240px"
+          flex="1"
+          justifyContent="center"
+          mt="64px"
+          bg="#F9F5FF"
+          width="100%"
+          maxW="1216px"
+        >
+          <Flex
+            justifyContent="center"
+            alignItems="center"
+            flexDirection="column"
+            flex={1}
+          >
+            <Text
+              fontWeight="600"
+              fontSize="60px"
+              lineHeight="72px"
+              color="#7F56D9"
+              textAlign="center"
+            >
+              2000
+            </Text>
+            <Text
+              fontWeight="500"
+              fontSize="18px"
+              lineHeight="28px"
+              color="#42307D"
+              textAlign="center"
+            >
+              Pets
+            </Text>
+          </Flex>
+          <Flex
+            justifyContent="center"
+            alignItems="center"
+            flexDirection="column"
+            flex={1}
+          >
+            <Text
+              fontWeight="600"
+              fontSize="60px"
+              lineHeight="72px"
+              color="#7F56D9"
+              textAlign="center"
+            >
+              600%
+            </Text>
+            <Text
+              fontWeight="500"
+              fontSize="18px"
+              lineHeight="28px"
+              color="#42307D"
+              textAlign="center"
+            >
+              Ease of use
+            </Text>
+          </Flex>
+          <Flex
+            justifyContent="center"
+            alignItems="center"
+            flexDirection="column"
+            flex={1}
+          >
+            <Text
+              fontWeight="600"
+              fontSize="60px"
+              lineHeight="72px"
+              color="#7F56D9"
+              textAlign="center"
+            >
+              1000+
+            </Text>
+            <Text
+              fontWeight="500"
+              fontSize="18px"
+              lineHeight="28px"
+              color="#42307D"
+              textAlign="center"
+            >
+              Owners
+            </Text>
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
+  );
+};
+
+export default FuryFriendsOnline;
